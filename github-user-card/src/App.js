@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import UserCard from "./components/UserCard";
+import Followers from "./components/Followers";
 
 function App() {
   return (
     <div className="App">
-      
+      <UserCard />
+      <Followers />
     </div>
   );
 }
