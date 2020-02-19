@@ -19,11 +19,11 @@ class UserCard extends React.Component {
     render() {
         console.log(this.state.user)
         return (
-            <div>
+            <div className="user-card">
                 <img src={this.state.user.avatar_url} alt={this.state.user.login} />
-                <div>
+                <div className="user-description">
                     <h2>{this.state.user.name}</h2>
-                    <h4>{this.state.user.login}</h4>
+                    <h4><i class="fab fa-github"></i> {this.state.user.login}</h4>
                     <p>{this.state.user.location}</p>
                     <p>{this.state.user.bio}</p>
                 </div>

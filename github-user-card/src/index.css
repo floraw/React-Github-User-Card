@@ -1,1 +1,36 @@
+body {
+    background-color: lavender;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.user-card {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0px auto;
+    background-color: white;
+    box-shadow: 5px 10px 10px steelblue;
+}
+
+.user-description {
+    padding: 35px;
+}
+
+.follower-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.follower-card {
+    width: 25%;
+    background-color: white;
+    text-align: center;
+    margin: 5%;
+    box-shadow: 5px 10px 10px steelblue;
+    border-radius: 5px;
+}
+
+.follower-card img {
+    max-width: 100%;
+}
